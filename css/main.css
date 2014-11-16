@@ -14,10 +14,29 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
 }
 
 .logo {
     width: 50%;
+  
+}
+
+img{
+	width: 100%;
+}
+
+.home-img{
+    width: 100%;
+}
+
+.text-1{
+    
+}
+
+.icon{
+    width: 50%;
+    text-align: center;
 }
 
 .hide-text {
@@ -29,40 +48,59 @@ overflow: hidden;
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	display: block;
 	height: 40px;
 	width: 40px;
 	position: absolute;
 	top: 10px;
 	right: 5%;
-	
+    
 	background: #fff url('../img/toggle.svg') no-repeat center center;
-	/* background-color || background-image || background-repeat || background-position */	
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #ccc;
+	background-color: ;
+}
+
+.nav-btn[data-state="active"] {
+	background: url('../img/toggle-close.svg') no-repeat center center;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited{
-	display: block;
+    display: block;
 	padding: 1rem;
 	text-align: center;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
-	background-color: #000;
+	background-color: #fff;
 	border-top: 1px solid #fff;
 	/* border-width || border-style || border-color */
 }
 
 .nav-top{
-	display: none;
+    max-height: 0;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+    overflow:hidden;
+    
 }
 
 .nav-top[data-state="expanded"]{
-	display: block;
+    max-height: 14rem;
+}
+	
+ul,li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    position: relative;
+    margin: 1rem; 
 }

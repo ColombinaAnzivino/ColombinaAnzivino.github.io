@@ -11,19 +11,68 @@
 </head>
 
 <header>
-    <h1><img src="img/logo.svg" class="logo"></h1>
-    <a href="#nav" class="nav-btn hide-text">Navigation</a>
+    <div class="nav-bar">
+        <h1><img class="logo" src="img/logo.svg" alt="logo"></h1>
     
-    <nav class="nav nav-top" data-state="collapsed">
-        <ul>
-            <li><a href="#" class="selected">ABOUT</a></li>
-            <li><a href="#"> WORK</a></li>
-            <li><a href="#"> CONTACT</a></li>	
-        </ul>
-    </nav>
+        <a href="img/toggle.svg" class="nav-btn hide-text toggle-style" data-state="inactive">Navigation</a>
+    
+        <nav class="nav nav-top" data-state="collapsed">
+            <ul>
+                <li><a href="#content-1">ABOUT ME</a></li>
+                <li><a href="#content-2">WORK</a></li>
+                <li><a href="#content-3">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+    
 </header>
+    
 <body>
- 
+
+    <div class="home-img">
+        <img src="http://placehold.it/650x150&amp;text=IMAGE" alt="Feature Image">
+        <p class="text-1">It's all about that light bulb moment</p>
+    </div>
+    
+    <section id="content-1 section-1">
+        <h2>ABOUT ME</h2>
+        
+        <p> Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+</p>
+        
+        <p>Why I do whay I do</p>
+        
+        <p> Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+</p>
+        <div class="icon">
+        <img src="../img/cup-coffe.svg" alt="coffe cup"></a>
+        </div>
+        
+        <p>Let's have a coffee and talk about design</p>
+        
+    
+    </section>
+    
+    <section id="content-2">
+        <h2>MY WORK</h2>
+        
+    
+    </section>
+    
+    <section id="content-3">
+        <h2>CONTACT ME</h2>
+        
+        <a href="img/mail.svg"></a>
+        
+        <a href="img/phone.svg"></a>
+    
+    </section>
+    
+
+    <footer>
+        <p class="copyright">Copyright © 2014</p>
+    </footer>
+    
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/main.js"></script>
