@@ -40,6 +40,7 @@ img{
 
 .home-img{
     width: 100%;
+    text-align: center;
     height: 20rem;
     background-image: url("http://placehold.it/650x250&amp;text=IMAGE");
 }
@@ -111,28 +112,46 @@ ul,li{
     margin: 0;
 }
 
+.head{
+    position: fixed;
+}
+
 .nav-bar{
     position: relative;
     margin: 1rem; 
 }
 
-#content-1{
+.sec-1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 3rem;
     background-color: #f0f0f0;
+}
+
+p{
+    text-align: left;
+}
+
+.icon-cup{
+    width: 50%;
 }
 
 .icon{
     width: 50%;
 }
 
-#content-2{
+.about-img{
+    width: 20%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: red;
+}
+
+.sec-2{
     font-family: 'Roboto', sans-serif;
     padding: 3rem;
 }
 
-#content-3{
+.sec-3{
     font-family: 'Roboto', sans-serif;
     padding: 3rem;
     background-color: #f0f0f0;
