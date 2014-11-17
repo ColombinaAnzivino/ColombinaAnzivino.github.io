@@ -38,17 +38,40 @@ img{
 	width: 100%;
 }
 
-.home-img{
-    width: 100%;
-    text-align: center;
-    height: 20rem;
-    background-image: url("http://placehold.it/650x250&amp;text=IMAGE");
+.bulb{
+    padding-top: 8rem;
+    width: 100px;
+    display: inline-block;
+    transform: translateY(100px);
 }
 
-.text-1{
+.bulb-section {
+    background: transparent url("http://placehold.it/650x250&amp;text=IMAGE") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+
+.js-bulb-fade {
+    -webkit-animation: bulb-fade 1s linear forwards;
+   
+}
+
+@-webkit-keyframes bulb-fade {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.bulb-text{
     font-family:'Roboto Condensed', sans-serif; 
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 .hide-text {
