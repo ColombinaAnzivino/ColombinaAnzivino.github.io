@@ -9,20 +9,14 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-}
-
-h2{
-  font-family:'Roboto Condensed', sans-serif;  
-}
-
-h3{
-    font-family:'Roboto Condensed', sans-serif;
+    padding: 0;
+    overflow: hidden;
 }
 
 p{
@@ -30,7 +24,7 @@ p{
 }
 
 .logo {
-    width: 45%;
+    width: 50%;
   
 }
 
@@ -46,7 +40,7 @@ img{
 }
 
 .bulb-section {
-    background: transparent url("http://placehold.it/650x250&amp;text=IMAGE") no-repeat center;
+    background: transparent url("http://placehold.it/550x550&amp;text=IMAGE") no-repeat center;
     background-size: cover;
     text-align: center;
     height: 500px;
@@ -83,12 +77,11 @@ overflow: hidden;
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	height: 50px;
-	width: 50px;
+	height: 20px;
+	width: 20px;
 	position: absolute;
 	top: 10px;
 	right: 5%;
-    
 	background: #fff url('../img/toggle.svg') no-repeat center center;
 }
 
@@ -135,43 +128,69 @@ ul,li{
     margin: 0;
 }
 
-.head{
-    position: fixed;
-}
-
 .nav-bar{
     position: relative;
-    margin: 1rem; 
+    margin: 0; 
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.logo-title{
+ font-size: 1rem;   
 }
 
 .sec-1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+#content-1{
+    padding: 5rem 0 5rem 0;
+    
+}
+
+.img-about{
+    width: 100px;
+    margin-top: 2rem;
+}
+
+.text-2{
+    font-family:'Roboto Condensed', sans-serif;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 
 p{
     text-align: left;
+    margin-top: 4rem;
 }
 
 .icon-cup{
-    width: 50%;
+    width: 100px;
+    margin-top: 5rem;
 }
 
 .icon{
     width: 50%;
 }
 
-.about-img{
-    width: 20%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    background-color: red;
-}
-
 .sec-2{
     font-family: 'Roboto', sans-serif;
     padding: 3rem;
+    padding: 4.5rem 20%;
+	overflow: hidden;
+}
+
+.artwork {
+	width: 30%;
+	margin-right: 5%;
+	float:left;
+}
+
+.artwork:nth-child(3n+3) { /* Every 3rd div will have these proprties */ 
+	margin-right: 0;
 }
 
 .sec-3{
