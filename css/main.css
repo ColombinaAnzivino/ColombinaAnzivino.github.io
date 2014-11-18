@@ -297,3 +297,33 @@ p.codrops-demos a:active{
     padding: 3rem;
     background-color: #f0f0f0;
 }
+
+.icon-set{
+    width: 100px;
+    display: inline-block;
+}
+
+.info-text{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.contact-sec{
+    text-align: center;
+}
+
+.social-sec p{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer p{
+    margin: 4rem 0 1rem 0;
+    padding: 0;
+    text-align: center;
+    font-size: .25rem;
+}
