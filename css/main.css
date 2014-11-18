@@ -16,7 +16,6 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 p{
@@ -174,6 +173,14 @@ p{
 
 .icon{
     width: 50%;
+}
+
+.info-1{
+    margin: .5rem;
+}
+
+.icon-arrow{
+    width: 50px;
 }
 
 .sec-2{
