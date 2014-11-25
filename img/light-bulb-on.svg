@@ -3,18 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
-<g>
-	<path d="M264.6,186.7c0,25.8-12.2,48.8-31.2,63.5v30.2h-15v-38c5.6-3.4,10.7-7.7,15-12.7c10.1-11.5,16.2-26.5,16.2-43
-		c0-36-29.3-65.3-65.3-65.3c-36,0-65.3,29.3-65.3,65.3c0,16.4,6.1,31.5,16.2,43c4.3,4.9,9.4,9.2,15,12.7v38h-15v-30.2
-		c-18.9-14.7-31.2-37.7-31.2-63.5c0-44.3,36-80.3,80.3-80.3C228.6,106.4,264.6,142.4,264.6,186.7z"/>
-	<path d="M233.4,229.7c-4.3,4.9-9.4,9.2-15,12.7L233.4,229.7z"/>
-</g>
-<rect x="135.2" y="294.5" width="98.3" height="12.2"/>
-<rect x="139.7" y="316.2" width="90.8" height="12.2"/>
-<rect x="146.8" y="337.8" width="77.6" height="12.2"/>
 <rect y="181.2" width="77.6" height="12.2"/>
 <rect x="282.2" y="181.2" width="77.6" height="12.2"/>
-<rect x="66.4" y="53.3" transform="matrix(0.6789 -0.7343 0.7343 0.6789 -44.3956 82.8131)" width="12.2" height="77.6"/>
-<rect x="276.3" y="53.8" transform="matrix(-0.6789 -0.7343 0.7343 -0.6789 406.0737 362.9395)" width="12.2" height="77.6"/>
+<rect x="66.3" y="53.3" transform="matrix(0.6789 -0.7343 0.7343 0.6789 -44.3979 82.7631)" width="12.2" height="77.6"/>
+<rect x="276.2" y="53.9" transform="matrix(-0.6789 -0.7343 0.7343 -0.6789 405.9374 362.9002)" width="12.2" height="77.6"/>
 <rect x="175.4" y="8.9" width="12.2" height="77.6"/>
 </svg>

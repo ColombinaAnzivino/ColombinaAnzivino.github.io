@@ -32,10 +32,22 @@ img{
 }
 
 .bulb{
-    padding-top: 15rem;
+    background: url(../img/light-bulb.svg) no-repeat center bottom;
+    background-size: contain;
+    height: 100px;
+    margin-top: 15rem;
     width: 100px;
     display: inline-block;
     transform: translateY(100px);
+}
+
+.bulb div{
+    background: url(../img/light-bulb-on.svg) no-repeat center top;
+    background-size: contain;
+    height: 100px;
+    
+    width: 100px;
+    opacity: 0;
 }
 
 .bulb-section {
@@ -48,7 +60,10 @@ img{
 
 .js-bulb-fade {
     -webkit-animation: bulb-fade 1s linear forwards;
-   
+}
+
+.js-bulb-fade div {
+    -webkit-animation: bulb-on 1s linear forwards;
 }
 
 @-webkit-keyframes bulb-fade {
@@ -59,6 +74,18 @@ img{
     100%{
         opacity: 1;
         transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes bulb-on {
+    0%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
@@ -81,7 +108,7 @@ img{
 	width: 20px;
 	position: absolute;
 	top: 10px;
-	right: 5%;
+	right: 13%;
 	background: #fff url('../img/toggle.svg') no-repeat center center;
 }
 
@@ -115,7 +142,6 @@ img{
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
     overflow:hidden;
-    
 }
 
 .nav-top[data-state="expanded"]{
@@ -129,11 +155,13 @@ ul,li{
 }
 
 .nav-bar{
-    position: relative;
+    position: fixed;
     margin: 0; 
     padding: 1rem;
     background-color: #fff;
     display: block;
+    z-index: 30000;
+    width: 100%;
 }
 
 .nav-larg{
@@ -254,6 +282,14 @@ p{
         
         width: 200px;
     
+    }
+    
+}
+
+@media only screen and (min-width:20.375em){
+    
+    .logo{
+        width: 20%;
     }
     
 }
