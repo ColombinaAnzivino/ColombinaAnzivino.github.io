@@ -394,6 +394,7 @@ p.codrops-demos a:active{
 
 .arrow{
     margin: 4rem 0 4rem 0;
+    text-align: center;
     
 }
 
@@ -417,6 +418,8 @@ p.codrops-demos a:active{
 
 
 /*CONTACT*/
+
+
 .sec-3{
     font-family: 'Roboto', sans-serif;
     padding: 3rem;
@@ -449,6 +452,59 @@ p.codrops-demos a:active{
 .social-icon{
     width: 50px;
     text-align: center;
+}
+
+/* Social Icons */
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	
+	
+	color: #fff;
+	/*background-color: #222;*/
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+	
+}
+
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;
+	color: #222;
+
+}
+
+li{
+    padding-top: 1rem;
 }
 
 footer p{
