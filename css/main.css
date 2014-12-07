@@ -171,7 +171,7 @@ ul,li{
     text-align: center;
 }
 
-@media only screen and (min-width:62em){
+@media only screen and (min-width:37em){
     .nav-bar{
         display: none;
     }
@@ -232,6 +232,7 @@ ul,li{
 
 #content-1{
     padding: 5rem 0 5rem 0;
+    margin: 0;
     
 }
 
@@ -262,6 +263,10 @@ p{
 
 .info-1{
     margin: .5rem;
+}
+
+.info-1 h3{
+    margin-top: 5rem;
 }
 
 .icon-arrow{
@@ -348,7 +353,7 @@ p.codrops-demos a:active{
 .ac-container label{
 	position: relative;
 	cursor: pointer;
-    margin-top: -1rem;
+    margin: 0;
 }
 
 
@@ -357,7 +362,8 @@ p.codrops-demos a:active{
 }
 .ac-container article{
 	background: #fff;
-	margin-top: -1rem;
+	
+	
 	overflow: hidden;
 	height: 0px;
 	position: relative;
@@ -398,13 +404,21 @@ p.codrops-demos a:active{
     
 }
 
+@media only screen and (min-width:46em){
+    
+  .sec-1{
+    padding: 0 5rem 0 5rem;
+  }
+
+
+}
+
 @media only screen and (min-width:62em){
     
 
     .sec-1{
         margin: 0;
-        padding-right: 20rem;
-        padding-left: 20rem;
+        padding: 0 10rem 0 10rem;
      
     }
     
@@ -419,6 +433,13 @@ p.codrops-demos a:active{
 
 /*CONTACT*/
 
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
 
 .sec-3{
     font-family: 'Roboto', sans-serif;
@@ -438,9 +459,6 @@ p.codrops-demos a:active{
 }
 
 
-.contact-sec{
-    text-align: center;
-}
 
 .social-sec{
     background-color: #fff;
@@ -471,7 +489,7 @@ p.codrops-demos a:active{
 	height: 40px;
 	margin-right: 1rem;
 	text-align: center;
-	
+   
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -490,6 +508,12 @@ p.codrops-demos a:active{
 	
 }
 
+.social i{
+ padding-top: 0.8rem;   
+}
+
+
+
 
 .social li a:hover,
 .social li a:focus,
@@ -500,16 +524,31 @@ p.codrops-demos a:active{
 	-o-box-shadow: inset 0px 0px 0px 3px #222;
 	box-shadow: inset 0px 0px 0px 3px #222;
 	color: #222;
-
 }
 
-li{
-    padding-top: 1rem;
+.social-sec h3{
+    padding-top: 3rem;
 }
+
+.social li{
+    margin-left: 5rem;
+    margin-right: 4rem;
+    padding-top: 4rem;
+    text-align: center;
+    
+}
+
 
 footer p{
     margin: 4rem 0 1rem 0;
     padding: 0;
     text-align: center;
     font-size: .25rem;
+}
+
+@media only screen and (min-width:37em){
+    
+  
+
+
 }

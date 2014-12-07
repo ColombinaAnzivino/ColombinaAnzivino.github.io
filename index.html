@@ -14,7 +14,8 @@
 </head>
 
 <header>
-    <section class="nav-bar" id="#top">
+    <section id="top">
+    <div class="nav-bar">
         <h1 class="logo-title"><img class="logo" src="img/logo.svg" alt="logo"></h1>
     
         <a href="img/toggle.svg" class="nav-btn hide-text toggle-style" data-state="inactive">Navigation</a>
@@ -26,9 +27,9 @@
                 <li><a href="#content-3">CONTACT ME</a></li>
             </ul>
         </nav>
-    </section>
+    </div>
     
-    <section class="nav-larg" id="#top">
+    <div class="nav-larg">
         <h1 class="logo-title-2"><img class="logo-2" src="img/logo-2.svg" alt="logo"></h1>
     
         <nav class="nav-2">
@@ -38,6 +39,7 @@
                 <li><a href="#content-3">CONTACT ME</a></li>
             </ul>
         </nav>
+    </div>
     </section>
         
     
@@ -62,7 +64,7 @@
         
             <h3>Why I do what I do</h3>
         
-            <p>It’s all about that lightbulb moment..</p> 
+            <p class="center">It’s all about that lightbulb moment..</p> 
             
             <p>That’s what keeps me going day to day. No matter how new and complex an idea could be. It’s what makes me grow as a designer.</p>
             
@@ -73,7 +75,7 @@
         </div>
     
         <div>
-            <a href="#top"><img class="icon-arrow" src="img/back-top.svg" alt="arrow"></a>
+            <a href="#top"><img class="icon-arrow arrow" src="img/back-top.svg" alt="arrow"></a>
         </div>
     </section>
     
@@ -163,21 +165,26 @@ This was a way to show trust towards the Ombudsman and confidence to actually ta
     </section>
     
     <section class="sec-3">
-        <h2 id="content-3">CONTACT ME</h2>
+        <h2 class="center" id="content-3">CONTACT ME</h2>
         
-        <h3>Personal</h3>
+        <h3 class="center">Personal</h3>
         
-        <section class="contact-sec">
-            <img class="icon-set" src="img/mail.svg" alt="e-mail icon">
-            <p>cmasrs19@gmail.com</p>
-            <img class="icon-set" src="img/phone.svg" alt="phone icon">
-            <p>cmasrs19@gmail.com</p>
+        <section class="contact-sec grid">
+            <div class="unit unit-s-1 unit-m-1-2 center">
+                <img class="icon-set center" src="img/mail.svg" alt="e-mail icon">
+                <p class="center">cmasrs19@gmail.com</p>
+            </div>
+            
+            <div class="unit unit-s-1 unit-m-1-2 center">
+                <img class="icon-set grid center" src="img/phone.svg" alt="phone icon">
+                <p class="center">cmasrs19@gmail.com</p>
+            </div>
         </section>
         
     </section>
 
     	<section class="social-sec">
-			<h3>Social Icons</h3>
+			<h3>Social Media</h3>
 			<ul class="social">
 				<li>
 					<a class="ease-all" href="#">
@@ -210,6 +217,28 @@ This was a way to show trust towards the Ombudsman and confidence to actually ta
         <p>Copyright © 2014</p>
     </footer>
     
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='js/jquery-1.10.2.min.js'>\x3C/script>")</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
+ <script src="js/modernizr.custom.js"></script>    
+=
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/main.js"></script>
