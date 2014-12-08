@@ -176,7 +176,7 @@ ul,li{
     max-width: 45rem;
 }
 
-@media only screen and (min-width:37em){
+@media only screen and (min-width:50em){
     .nav-bar{
         display: none;
     }
@@ -278,6 +278,19 @@ ul,li{
     width: 20px;
 }
 
+@media only screen and (min-width:20.375em){
+    
+    .logo{
+        width: 20%;
+    }
+    
+    .bulb-text{
+        margin-top: 0;
+    }
+    
+}
+
+
 @media only screen and (min-width:62em){
     
 
@@ -292,18 +305,6 @@ ul,li{
         
         width: 200px;
     
-    }
-    
-}
-
-@media only screen and (min-width:20.375em){
-    
-    .logo{
-        width: 20%;
-    }
-    
-    .bulb-text{
-        margin-top: 0;
     }
     
 }
