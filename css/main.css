@@ -35,7 +35,7 @@ img{
     background: url(../img/light-bulb.svg) no-repeat center bottom;
     background-size: contain;
     height: 100px;
-    margin-top: 15rem;
+    margin-top: 5rem;
     width: 100px;
     display: inline-block;
     transform: translateY(100px);
@@ -51,11 +51,12 @@ img{
 }
 
 .bulb-section {
-    background: transparent url("http://placehold.it/550x550&amp;text=IMAGE") no-repeat center;
+    background: transparent url(../img/bg-1.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     height: 100vh;
     width: 100%;
+
 }
 
 .js-bulb-fade {
@@ -166,9 +167,13 @@ ul,li{
 
 .nav-larg{
     display: none;
-    background-color: #000;
+    background-color: #f55638;
     width: 100%;
     text-align: center;
+}
+
+.logo-2{
+    max-width: 45rem;
 }
 
 @media only screen and (min-width:37em){
@@ -188,7 +193,7 @@ ul,li{
     }
     
     .logo-title-2{
-        padding: 2rem 5rem 2rem 5rem;
+        padding: 2rem 10rem 2rem 10rem;
     }
     
     .nav-2 a,
@@ -212,10 +217,10 @@ ul,li{
     }
     
     .bulb-text{
-        font-size: 3rem;
+        font-size: 1rem;
         padding: 0 4rem 0 4rem;
+        margin-top: 0;
     }
-
     
 }
 
@@ -226,7 +231,7 @@ ul,li{
 .sec-1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f55638;
     padding: 1rem;
 }
 
@@ -247,7 +252,7 @@ ul,li{
     text-align: center;
 }
 
-p{
+.info-1 p{
     text-align: left;
     margin-top: 4rem;
 }
@@ -270,7 +275,7 @@ p{
 }
 
 .icon-arrow{
-    width: 50px;
+    width: 20px;
 }
 
 @media only screen and (min-width:62em){
@@ -295,6 +300,10 @@ p{
     
     .logo{
         width: 20%;
+    }
+    
+    .bulb-text{
+        margin-top: 0;
     }
     
 }
@@ -444,7 +453,11 @@ p.codrops-demos a:active{
 .sec-3{
     font-family: 'Roboto', sans-serif;
     padding: 3rem;
-    background-color: #f0f0f0;
+    background-color: #f55638;
+}
+
+.sec-3 h3{
+    margin-bottom: 5rem;
 }
 
 .icon-set{
@@ -458,13 +471,15 @@ p.codrops-demos a:active{
     text-align: center;
 }
 
-
-
 .social-sec{
     background-color: #fff;
     padding: 0;
     margin: 0;
     text-align: center;
+}
+
+.social-sec h3{
+    margin-bottom: 5rem;
 }
 
 .social-icon{
@@ -500,11 +515,11 @@ p.codrops-demos a:active{
 	color: #fff;
 	/*background-color: #222;*/
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
-	-moz-box-shadow: inset 0px 0px 0px 40px #222;
-	-ms-box-shadow: inset 0px 0px 0px 40px #222;
-	-o-box-shadow: inset 0px 0px 0px 40px #222;
-	box-shadow: inset 0px 0px 0px 40px #222;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f55638;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f55638;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f55638;
+	-o-box-shadow: inset 0px 0px 0px 40px #f55638;
+	box-shadow: inset 0px 0px 0px 40px #f55638;
 	
 }
 
@@ -518,12 +533,12 @@ p.codrops-demos a:active{
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
-	-moz-box-shadow: inset 0px 0px 0px 3px #222;
-	-ms-box-shadow: inset 0px 0px 0px 3px #222;
-	-o-box-shadow: inset 0px 0px 0px 3px #222;
-	box-shadow: inset 0px 0px 0px 3px #222;
-	color: #222;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #f55638;
+	-moz-box-shadow: inset 0px 0px 0px 3px #f55638;
+	-ms-box-shadow: inset 0px 0px 0px 3px #f55638;
+	-o-box-shadow: inset 0px 0px 0px 3px #f55638;
+	box-shadow: inset 0px 0px 0px 3px #f55638;
+	color: #f55638;
 }
 
 .social-sec h3{
