@@ -23,8 +23,7 @@ p {
 }
 
 .logo {
-    width: 50%;
-  
+    width: 50%; 
 }
 
 img {
@@ -35,7 +34,7 @@ img {
     background: url(../img/light-bulb.svg) no-repeat center bottom;
     background-size: contain;
     height: 100px;
-    margin-top: 5rem;
+    margin-top: 2rem;
     width: 100px;
     display: inline-block;
     transform: translateY(100px);
@@ -45,17 +44,21 @@ img {
     background: url(../img/light-bulb-on.svg) no-repeat center top;
     background-size: contain;
     height: 100px;
-    
     width: 100px;
     opacity: 0;
 }
 
-.bulb-section {
+.banner{
     background: transparent url(../img/bg-1.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     height: 100vh;
     width: 100%;
+
+}
+
+.bulb-section {
+
 
 }
 
@@ -133,7 +136,6 @@ img {
 	text-decoration: none;
 	background-color: #fff;
 	border-top: 1px solid #fff;
-	/* border-width || border-style || border-color */
 }
 
 .nav-top{
@@ -170,6 +172,9 @@ ul,li{
     background-color: #f55638;
     width: 100%;
     text-align: center;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 0;
 }
 
 .logo-2{
@@ -255,6 +260,7 @@ ul,li{
 .info-1 p{
     text-align: left;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .icon-cup{
@@ -298,6 +304,7 @@ ul,li{
         margin: 0;
         padding-right: 20rem;
         padding-left: 20rem;
+        padding-bottom: 20rem;
      
     }
     
@@ -417,7 +424,7 @@ p.codrops-demos a:active{
 @media only screen and (min-width:46em){
     
   .sec-1{
-    padding: 0 5rem 0 5rem;
+    padding: 0 5rem 5rem 5rem;
   }
 
 
@@ -428,7 +435,7 @@ p.codrops-demos a:active{
 
     .sec-1{
         margin: 0;
-        padding: 0 10rem 0 10rem;
+        padding: 0 10rem 10rem 10rem;
      
     }
     
