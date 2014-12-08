@@ -18,7 +18,7 @@ body {
     padding: 0;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,11 +27,11 @@ p{
   
 }
 
-img{
+img {
 	width: 100%;
 }
 
-.bulb{
+.bulb {
     background: url(../img/light-bulb.svg) no-repeat center bottom;
     background-size: contain;
     height: 100px;
