@@ -268,6 +268,38 @@ ul,li{
     margin-top: 25rem;
 }
 
+.icon-cup-2{
+    width: 15rem;
+    margin-top: 10rem;
+}
+
+.coffee-sec h2{
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.page{
+    height: 100vh;
+    width: 100%;
+}
+
+.not-found-btn{
+    padding: 0.3em;
+    text-align: center;
+    color: #f55638;
+    border: solid 2px #f55638;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.not-found-btn a,
+.not-found-btn a:link,
+.not-found-btn a:visited{
+    color: #f55638;
+    text-decoration: none;
+}
+
 .icon{
     width: 50%;
 }
@@ -316,6 +348,21 @@ ul,li{
     
 }
 
+.banner-1{
+    background: transparent url(../img/desk-view.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-2{
+    background: transparent url(../img/img-bg-colour.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
 
 /*PORTFOLIO*/
 
@@ -328,7 +375,6 @@ ul,li{
 #content-2{
     padding: 5rem 0 5rem 0;
 }
-
 
 ol,ul {
 	list-style:none;
@@ -502,6 +548,9 @@ p.codrops-demos a:active{
     text-align: center;
 }
 
+.contact-sec{
+
+}
 /* Social Icons */
 
 .hide-text {
@@ -542,9 +591,6 @@ p.codrops-demos a:active{
  padding-top: 0.8rem;   
 }
 
-
-
-
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
@@ -555,6 +601,8 @@ p.codrops-demos a:active{
 	box-shadow: inset 0px 0px 0px 3px #f55638;
 	color: #f55638;
 }
+
+
 
 .social-sec h3{
     padding-top: 3rem;
