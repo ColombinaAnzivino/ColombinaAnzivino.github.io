@@ -16,17 +16,3 @@ this.setAttribute('data-state', 'active');
 }
 
 });
-
-$bulbSection.waypoint(function () {
-    $bulb.addClass('js-bulb-fade');
-}, { offset: '50%' });
-
-$bulbSection.waypoint(function () {
-    $bulb.addClass('js-bulb-fade');
-}, { offset: '70%' });
-
-$(window).on('scroll', function(){
-  $('.copy').css({
-    'transform' : 'translatey('+ $(this).scrollTop()/3 + 'px)'
-  });
-})
