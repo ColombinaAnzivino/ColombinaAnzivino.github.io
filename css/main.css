@@ -64,17 +64,17 @@ img {
 	position: absolute;
 	top: 10px;
 	right: 13%;
-	background: #fff url("../img/toggle-close.svg") no-repeat center center;
+	background: url("../img/toggle-open.svg") no-repeat center center;
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: ;
+	background-color: #000 ;
 }
 
 .nav-btn[data-state="active"] {
-	background: url("../img/toggle-close.svg") no-repeat center center;
+	background: url("../img/toggle.svg") no-repeat center center;
 }
 
 .nav a,
@@ -213,7 +213,7 @@ sec-1 p{
 }
 
 .img-about{
-    width: 100px;
+    width: 150px;
     margin-top: 2rem;
 }
 
@@ -307,7 +307,7 @@ sec-1 p{
     
     .img-about{
         
-        width: 100px;
+        width: 150px;
     
     }
     
@@ -561,7 +561,7 @@ ol,ul {
     }
     
     .img-about{
-        width: 100px;
+        width: 150px;
         padding-bottom: 2rem;
     
     }
