@@ -320,6 +320,11 @@ ol,ul {
     max-height: 10rem;
 }
 
+.img{
+        max-width: 80%;
+        margin: 10rem 2rem 0 2rem;
+    }
+
 /*------*/
 
 .img-flex {
@@ -371,9 +376,6 @@ a img {
     z-index: 1;
 }
 
-/*.gallery div > a:hover img {
-    -webkit-transform: scale(0.4);
-}*/
 .gallery article {
     width: 0;
     height: 0;
