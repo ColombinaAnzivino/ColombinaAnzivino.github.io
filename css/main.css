@@ -171,7 +171,6 @@ ul,li{
 }
 
 .sec-1{
-    font-family: sans-serif;
     text-align: center;
     background-color: #fff;
     padding: 1rem;
@@ -179,7 +178,7 @@ ul,li{
 }
 
 .content-sec-1{
-  text-align: left;
+    text-align: left;
 }
 
 sec-1 p{
