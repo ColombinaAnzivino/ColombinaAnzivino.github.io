@@ -376,8 +376,8 @@ a img {
 }
 
 .gallery article {
-    width: auto;
-    height: auto;
+    width: 0;
+    height: 0;
     overflow: scroll;
     position: fixed;
     top: 0;
