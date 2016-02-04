@@ -50,7 +50,7 @@ img {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #000 ;
+	background-color: red ;
 }
 
 .nav-btn[data-state="active"] {
