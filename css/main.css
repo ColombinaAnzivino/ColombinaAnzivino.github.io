@@ -172,12 +172,14 @@ ul,li{
 
 .sec-1{
     text-align: center;
-    background-color: #fff;
-    padding: 1rem;
+    background: transparent url("../img/me.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 2rem;
     font-weight: 300;
 }
 
 .content-sec-1{
+    float: right;
 }
 
 sec-1 p{
@@ -185,7 +187,6 @@ sec-1 p{
 }
 
 #content-1{
-    padding: 5rem 0 5rem 0;
     margin: 0;
     
 }
@@ -209,6 +210,7 @@ sec-1 p{
 
 .icon-cup{
     width: 100px;
+    padding-top: 4rem;
  
 }
 
@@ -275,9 +277,9 @@ sec-1 p{
 
     .sec-1{
         margin: 0;
-        /*padding-right: 20rem;
+        padding-right: 20rem;
         padding-left: 20rem;
-        padding-bottom: 20rem;*/
+        padding-bottom: 20rem;
      
     }
     
@@ -300,7 +302,6 @@ sec-1 p{
 }
 
 #content-2{
-    margin-top: 10rem;
     padding: 5rem 0 5rem 0;
     
 }
@@ -310,12 +311,13 @@ ol,ul {
 }
 
 .arrow{
-    background-color: #f5f5f5;
     text-align: center;  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .coffee-sec{
-    max-height: 10rem;
+ 
 }
 
 .img{
@@ -385,7 +387,7 @@ a img {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, .8);
+    background: #fff;
     z-index: 1000;
      top: 0px;
     left: 0px;
@@ -409,7 +411,7 @@ article .close {
     top: 100px;
     margin-left: -50px;
     width: 100px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding: 6px 6px 6px 0;
     text-transform: uppercase;
@@ -418,7 +420,7 @@ article .close {
 
 article .close:before {
     content: "X";
-    color: #fff;
+    color: #000;
     font-family: Arial;
     font-weight: bold;
     position: relative;
@@ -429,13 +431,13 @@ article .close:before {
 }
 
 article .close:hover {
-    color: #f5f5f5;
+    color: #f55638;
 }
 
 @media only screen and (min-width:37em){
     
     .sec-1{
-    /*padding: 0 5rem 5rem 5rem;*/
+    padding: 2rem 5rem 5rem 5rem;
   }
     .img{
         width: 50%;
@@ -455,7 +457,7 @@ article .close:hover {
 @media only screen and (min-width:46em){
     
   .sec-1{
-    /*padding: 0 5rem 5rem 5rem;*/
+    padding: 2rem 5rem 5rem 5rem;
   }
     
     .img{
@@ -475,7 +477,7 @@ article .close:hover {
 @media only screen and (min-width:50em){
     
   .sec-1{
-    /*padding: 0 10rem 5rem 10rem;*/
+    padding: 2rem 10rem 5rem 10rem;
   }
 
     .img{
@@ -496,15 +498,15 @@ article .close:hover {
 
     .sec-1{
         margin: 0;
-        /*padding: 0 15rem 5rem 15rem;*/
+        padding: 2rem 15rem 5rem 15rem;
      
     }
     
-    .img-about{
+    /*.img-about{
         width: 50%;
         padding-bottom: 2rem;
         float: left;
-    }
+    }*/
     
     .img{
         width: 50%;
@@ -519,7 +521,9 @@ article .close:hover {
 
     .sec-1{
         margin: 0;
-        /*padding: 0 20rem 5rem 20rem;*/ 
+        padding-right: 20rem; 
+        padding-bottom: 5rem;
+        padding-left: 20rem;
     }
     
     .img{
@@ -543,7 +547,7 @@ article .close:hover {
 
     .sec-1{
         margin: 0;
-        /*padding: 0 30rem 5rem 30rem;*/
+        height: 30rem;
      
     }
     
@@ -574,8 +578,9 @@ article .close:hover {
 
 .sec-3{
     font-family: 'Oswald', sans-serif;
-    padding: 3rem;
-    background-color: #f5f5f5;
+    padding-top: 3rem;
+    background: transparent url("../img/footer.jpg") no-repeat center;
+    background-size: cover;
     color: #333;
     font-weight: 300;
 }
@@ -683,7 +688,7 @@ article .close:hover {
 }
 
 footer{
-       background-color: #f5f5f5;
+      
 }
 
 footer p{
