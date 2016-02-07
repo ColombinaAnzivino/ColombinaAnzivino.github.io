@@ -12,13 +12,13 @@ html {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 p {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 .logo {
@@ -39,22 +39,14 @@ img {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	height: 20px;
-	width: 20px;
+    margin-top: -1.4rem;
+    text-align: right;
 	position: absolute;
-	top: 10px;
-	right: 13%;
-	background: #fff url("../img/toggle-close.svg") no-repeat center center;
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active{
-	background-color: #000 ;
-}
-
-.nav-btn[data-state="active"] {
-	background: url("../img/toggle.svg") no-repeat center center;
+	right: 20%;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
 }
 
 .nav a,
@@ -62,9 +54,9 @@ img {
 .nav a:visited{
     display: block;
 	padding: 1rem;
-    font-weight: 300;
 	text-align: center;
 	color: #333;
+    top:0%;
 	text-decoration: none;
 }
 
@@ -86,14 +78,13 @@ img {
 .fancy-link:visited{
 	color: #333;
 	text-decoration: none;
-	font-weight: 300;
-	border-bottom: 1px solid #333;
+    font-weight: 500;
 }
 
 .fancy-link:hover,
 .fancy-link:focus{
 	color:#333;
-	border-bottom: 5px solid #333;
+	border-bottom: 3px solid #ef4628;
 }
 	
 ul,li{
@@ -116,7 +107,7 @@ ul,li{
     display: none;
     background-color: #fff;
     width: 100%;
-    text-align: center;
+    text-align: right;
     position: fixed;
     z-index: 1000;
     margin-top: 0;
@@ -127,7 +118,7 @@ ul,li{
     max-width: 25rem;
 }
 
-@media only screen and (min-width:50em){
+@media only screen and (min-width:56em){
     .nav-bar{
         display: none;
     }
@@ -156,7 +147,10 @@ ul,li{
         text-align: center;
         color: #333;
         text-decoration: none;
- 
+    }
+    
+    .nav-2 ul{
+     padding-top: 0.8rem;   
     }
 
     
@@ -173,20 +167,23 @@ ul,li{
 .sec-1{
     text-align: center;
     padding-top: 2rem;
-    font-weight: 300;
-}
-
-.content-sec-1{
-    float: right;
-}
-
-sec-1 p{
-  
+    width: 100%;
 }
 
 #content-1{
-    margin: 0;
-    
+    margin: 0; 
+}
+
+.text-section{
+ padding: 0 1.5rem 0 1.5rem ;   
+}
+
+.vertical-align{
+margin-top: 15%;   
+}
+
+#content-1 h2{
+ padding: 3rem 0 2rem 0;   
 }
 
 .img-about{
@@ -194,8 +191,6 @@ sec-1 p{
 }
 
 .text-2{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -272,14 +267,6 @@ sec-1 p{
 
 @media only screen and (min-width:62em){
     
-
-    .sec-1{
-        margin: 0;
-        padding-right: 20rem;
-        padding-left: 20rem;
-        padding-bottom: 20rem;
-     
-    }
     
     .img-about{
         
@@ -293,14 +280,12 @@ sec-1 p{
 /*PORTFOLIO*/
 
 .sec-2{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
     text-align: center;
 	overflow: hidden;
 }
 
 #content-2{
-    padding: 5rem 0 5rem 0;
+    padding: 8rem 0 2rem 0;
     
 }
 
@@ -396,14 +381,18 @@ a img {
     -webkit-transition: .7s;
 }
 
-.gallery article:target img {
-    opacity: 1;
+.gallery img {
+    opacity: 1.0;
+}
+
+.gallery img:hover{
+ opacity: 1.0;   
 }
 
 
 article .close {
-    font-family: Arial;
     position: absolute;
+    font-weight: 500;
     left: 50%;
     top: 100px;
     margin-left: -50px;
@@ -415,27 +404,20 @@ article .close {
     -webkit-transition: .5s;
 }
 
-article .close:before {
-    content: "X";
-    color: #000;
-    font-family: Arial;
-    font-weight: bold;
-    position: relative;
-    padding-top: 2px;
-    padding-right: 1rem;
-    width: 24px;
-    height: 21px;
-}
 
 article .close:hover {
     color: #f55638;
 }
 
 @media only screen and (min-width:37em){
-    
-    .sec-1{
-    padding: 2rem 5rem 5rem 5rem;
-  }
+
+.gallery img {
+    opacity: 0.4;
+}
+
+.gallery img:hover{
+ opacity: 1.0;   
+}
     .img{
         width: 50%;
         /*margin: 10rem 8rem 0 8rem;*/
@@ -447,15 +429,16 @@ article .close:hover {
         float: left;
         
     }
+    
+    .gallery article:target img {
+    opacity: 1;
+    margin-left: 25%;    
+}
 
     
 }
 
 @media only screen and (min-width:46em){
-    
-  .sec-1{
-    padding: 2rem 5rem 5rem 5rem;
-  }
     
     .img{
         width: 50%;
@@ -473,10 +456,6 @@ article .close:hover {
 
 @media only screen and (min-width:50em){
     
-  .sec-1{
-    padding: 2rem 10rem 5rem 10rem;
-  }
-
     .img{
         width: 50%;
        /*margin: 10rem 15rem 0 15rem;*/
@@ -491,14 +470,7 @@ article .close:hover {
 }
 
 @media only screen and (min-width:62em){
-    
 
-    .sec-1{
-        margin: 0;
-        padding: 2rem 15rem 5rem 15rem;
-     
-    }
-    
     /*.img-about{
         width: 50%;
         padding-bottom: 2rem;
@@ -514,14 +486,6 @@ article .close:hover {
 }
 
 @media only screen and (min-width:72em){
-    
-
-    .sec-1{
-        margin: 0;
-        padding-right: 20rem; 
-        padding-bottom: 5rem;
-        padding-left: 20rem;
-    }
     
     .img{
         width: 50%;
@@ -540,13 +504,6 @@ article .close:hover {
 }
 
 @media only screen and (min-width:82em){
-    
-
-    .sec-1{
-        margin: 0;
-        height: 30rem;
-     
-    }
     
     .img{
         width: 50%;
@@ -574,12 +531,11 @@ article .close:hover {
 }
 
 .sec-3{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'poppins', sans-serif;
     padding-top: 3rem;
     background: transparent url("../img/footer.jpg") no-repeat center;
     background-size: cover;
     color: #333;
-    font-weight: 300;
 }
 
 .icon-set{
@@ -673,7 +629,6 @@ article .close:hover {
 
 .social-sec h3{
     padding-top: 3rem;
-    font-weight: 300;
 }
 
 .social li{
@@ -692,5 +647,4 @@ footer p{
     margin: 0;
     padding: 2rem 0 1rem 0;
     text-align: center;
-    font-weight: 300;
 }
