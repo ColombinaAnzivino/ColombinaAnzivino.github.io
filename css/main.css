@@ -389,6 +389,11 @@ a img {
  opacity: 1.0;   
 }
 
+.lachicka{
+ width:100%;
+position: absolute;
+}
+
 
 article .close {
     position: absolute;
