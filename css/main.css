@@ -166,6 +166,7 @@ ul,li{
 
 .sec-1{
     text-align: center;
+    color: #fff;
     padding-top: 2rem;
     width: 100%;
     background: transparent url("../img/profile.jpg") no-repeat center;
@@ -185,7 +186,7 @@ margin-top: 15%;
 }
 
 #content-1 h2{
- padding: 3rem 0 2rem 0;   
+ padding: 3rem 0 2rem 0;
 }
 
 .img-about{
