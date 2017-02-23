@@ -542,7 +542,7 @@ article .close:hover {
 .sec-3{
     font-family: 'poppins', sans-serif;
     padding-top: 3rem;
-    background: transparent url("../img/footer.jpg") no-repeat center;
+    /*background: transparent url("../img/footer.jpg") no-repeat center;*/
     background-size: cover;
     color: #333;
 }
