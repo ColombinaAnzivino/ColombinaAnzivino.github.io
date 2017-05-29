@@ -1,0 +1,142 @@
+.thumbnails {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnails li {
+  display: inline-block;
+}
+
+.thumbnails a {
+  display: block;
+}
+
+.lightbox {
+  position: fixed;
+  left: 100%;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+
+.lightbox[data-state="visible"] {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+.lightbox-container {
+  background-color: rgba(0,0,0,0.5);
+    width: 100%;
+
+}
+
+/*.lightbox-container {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  top: 15px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px #000;
+}*/
+
+.lightbox-img {
+  display: block;
+text-align: center;
+  width: 50rem;
+}
+
+.lightbox-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+@media only screen and (min-width:25em){
+    
+    .lightbox-img {
+  display: block;
+text-align: center;
+  width: 20rem;
+}
+
+}
+
+
+@media only screen and (min-width:37em){
+    
+    .lightbox-img {
+  display: block;
+text-align: center;
+  width: 20rem;
+}
+
+}
+
+@media only screen and (min-width:46em){
+    
+        .lightbox-img {
+  display: block;
+text-align: center;
+  width: 30rem;
+}
+    
+    
+
+}
+
+@media only screen and (min-width:50em){
+    
+        .lightbox-img {
+  display: block;
+text-align: center;
+  width: 40rem;
+}
+    
+
+}
+
+@media only screen and (min-width:62em){
+
+        .lightbox-img {
+  display: block;
+text-align: center;
+  width: 40rem;
+}
+
+    
+}
+
+@media only screen and (min-width:72em){
+        .lightbox-img {
+  display: block;
+text-align: center;
+  width: 50rem;
+}
+
+    
+}
+
+@media only screen and (min-width:82em){
+    
+    .lightbox-img {
+  display: block;
+text-align: center;
+  width: 50rem;
+}
+    
+
+}
