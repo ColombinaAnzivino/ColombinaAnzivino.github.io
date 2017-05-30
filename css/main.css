@@ -27,19 +27,27 @@ p {
 }
 
 
-  h1{
+
+/*.header-div {
+    max-width: 100%;
+
+}*/
+
+h1{
     font-size: 1.5rem;
     color: #333;
     text-align: center;
     position: fixed;
-    margin: -3rem 0rem 2rem 0rem;
-    padding: -1rem 1rem 1rem 1rem;
+    padding: 1rem 0;
     display: block;
-    z-index: 30000;
-    width: 100%;
+    z-index: 3000;
+    left: 0;
+    right: 0;
+    top: 0;
     background-color: #fafafa;
-      
-    }
+    font-weight: 600;
+    width: 100%;
+}
 
 .bar{
     background-color: #fafafa;
@@ -57,7 +65,7 @@ h2{
     text-align: justify left;
 }
 
-header{
+/*header{
     background: url("../img/colombina-anzivino-dino2.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
@@ -65,23 +73,25 @@ header{
 
 header p{
     padding: 1rem 1rem 0rem 1rem;
-}
+}*/
 
 .social{
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: block;
     position: fixed;
+    z-index: 4000;
+    left: 1rem;
+    top: 3.5rem;
 }
 
-.social ul li{
+.social li{
     margin: 0; 
     display: block;
-    z-index: 30000;
-    width: 100%;
+    
     color: #333;
     text-align: left;
-    margin-left: -2rem;
+    /*margin-left: -2rem;*/
 }
 
 .hide-text {
@@ -384,6 +394,12 @@ article .close:hover {
 }
 
 @media only screen and (min-width:82em){
+    
+    
+    h1{
+    margin-bottom: 10rem;
+    
+    }
     
             .contact img {
     display: inline-block;

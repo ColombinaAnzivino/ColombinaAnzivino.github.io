@@ -20,6 +20,8 @@
   background-color: rgba(0,0,0,0.5);
   opacity: 0;
   transition: all 200ms ease-out;
+    width: 100%;
+
 }
 
 .lightbox[data-state="visible"] {
@@ -30,7 +32,8 @@
 
 .lightbox-container {
   background-color: rgba(0,0,0,0.5);
-    width: 100%;
+    max-width: 100%;
+
 
 }
 
@@ -47,8 +50,9 @@
 
 .lightbox-img {
   display: block;
-text-align: center;
+    text-align: center;
   width: 50rem;
+    margin-top: 10rem;
 }
 
 .lightbox-content {
@@ -59,84 +63,163 @@ text-align: center;
 }
 
 .lightbox-desc{
-    color: #fff;
+    color: #5ee6f7;
     text-align: center;
     font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
 }
+
+    .img-2 {
+    display: block;
+    text-align: center;
+    width: 50%;
+}
+  
+
 
 
 @media only screen and (min-width:25em){
     
-    .lightbox-img {
-  display: block;
-text-align: center;
-  width: 20rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 20rem;
 }
+    
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
+    
 
 }
 
 
 @media only screen and (min-width:37em){
     
-    .lightbox-img {
-  display: block;
-text-align: center;
-  width: 20rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 20rem;
 }
 
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
+
+    
 }
 
 @media only screen and (min-width:46em){
     
-        .lightbox-img {
-  display: block;
-text-align: center;
-  width: 30rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 30rem;
 }
     
-    
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+     
 
 }
 
 @media only screen and (min-width:50em){
     
-        .lightbox-img {
-  display: block;
-text-align: center;
-  width: 40rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 40rem;
 }
+    
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
     
 
 }
 
 @media only screen and (min-width:62em){
 
-        .lightbox-img {
-  display: block;
-text-align: center;
-  width: 40rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 40rem;
 }
-
+    
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
     
 }
 
 @media only screen and (min-width:72em){
-        .lightbox-img {
-  display: block;
-text-align: center;
-  width: 50rem;
+        
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 50rem;
 }
 
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
     
 }
 
 @media only screen and (min-width:82em){
     
-    .lightbox-img {
-  display: block;
-text-align: center;
-  width: 50rem;
+.lightbox-img {
+    display: block;
+    text-align: center;
+    width: 50rem;
 }
     
-
+.lightbox-desc{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+    
+    
 }
